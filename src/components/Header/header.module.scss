@@ -1,0 +1,100 @@
+.gradientStroke {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -100;
+}
+.cells{
+    z-index: -100;
+    position: absolute;
+    left: 0;
+    top: 30%;
+
+}
+.header {
+    margin-left: 150px;
+    margin-right: 90px;
+    &__head1 {
+        margin-bottom: 30px;
+        width: 540px;
+        font-size: var(--head-1-size);
+        color: var(--white);
+        font-weight: var(--h1-weight);
+        line-height: var(--head-1-line);
+        letter-spacing: -0.5%;
+    }
+
+    &__body1 {
+        margin-top: 0;
+        width: 446px;
+        font-size: var(--body-1-size);
+        color: var(--grey-2);
+        font-weight: var(--p-weight);
+        line-height: var(--body-1-line);
+    }
+
+    &__button1 {
+        margin-top: 30px;
+        max-width: 280px;
+        height: 76px;
+        padding: 1.5em 2.3em;
+        background-image: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+        text-transform: uppercase;
+        font-size: var(--button-1-size);
+        font-weight: var(--button-1-weight);
+        line-height: var(--button-1-line);
+        color: var(--white);
+        letter-spacing: 1.5px;
+        text-align: center;
+        animation: gradient 10s infinite linear;
+
+    }
+    
+    &__clients{
+        margin-top: 110px;
+        width: 286px;
+        .happyClients{
+            position: relative;
+            .underline-purple{
+                position: absolute;
+                top: 20px;
+            }
+            margin-left: 10px;
+            width: 136px;
+            color: #D1D1D1;
+            font-weight: var(p-weight);
+            font-size: var(--body-1-size);
+            line-height: 28px;
+            b{
+                color: inherit;
+                font-size: inherit;
+                font-weight: 600;
+                line-height: 28px;
+            }
+        }
+    }
+    &__menVr{
+        margin-top: 100px;
+
+        &__img{
+            position: relative;
+        }
+    }
+    &__backlight{
+        position: absolute;
+        right: 0px;
+        bottom: 30px;
+        z-index: -100;
+    }
+}
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}

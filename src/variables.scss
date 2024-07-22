@@ -1,0 +1,112 @@
+:root{
+// animation
+
+
+      
+      
+
+
+      
+    // headers variables
+
+
+
+      // font-family
+      --heads-fonts: Chakra Petch;
+    
+      // font-size
+      --head-1-size: 64px;
+      --head-2-size: 48px;
+      --head-3-size: 40px;
+      --head-4-size: 36px;
+      --head-5-size: 32px;
+      --head-6-size: 28px;
+      --head-7-size: 20px;
+      --head-8-size: 20px;
+      --head-9-size: 18px;
+      --head-10-size: 16px;
+      --head-11-size: 16px;
+      --head-12-size: 14px;
+    
+      // line-height
+      --head-1-line: auto;
+      --head-2-line: 58px;
+      --head-3-line: 58px;
+      --head-4-line: 44px;
+      --head-5-line: auto;
+      --head-6-line: auto;
+      --head-7-line: auto;
+      --head-8-line: auto;
+      --head-9-line: auto;
+      --head-10-line: 28px;
+      --head-11-line: auto;
+      --head-12-line: auto;
+
+
+      --h1-weight: 600; 
+    
+    // body variables
+    
+      // font-size
+      --body-1-size: 16px;
+      --body-2-size: 14px;
+      --body-3-size: 16px;
+      --body-4-size: 12px;
+    
+      // line-height
+      --body-1-line: 28px;
+      --body-2-line: 29px;
+      --body-3-line: 28px;
+      --body-4-line: 20px;
+
+
+      --p-weight: 300;
+      --p-weight--active: 500;
+    
+    // caption variables
+    
+      // font-size
+      --caption-1-size: 16px;
+      --caption-2-size: 14px;
+      --caption-3-size: 10px;
+    
+      // line-height
+      --caption-1-line: auto;
+      --caption-2-line: 20px;
+      --caption-3-line: 14px;
+    
+    // button variables
+    
+      // font-size
+      --button-1-size: 14px;
+      --button-1-size: 16px;
+    
+      // line-height
+      --button-1-line: 14px;
+      --button-1-line: 28px;
+    
+      
+      --button-1-weight: 700;
+    
+    // colors
+    
+      // main
+      --linear-1: #0CBAF1;
+      --linear-2: #E95CE9;
+      --purple: #CA6AEB;
+      --blue: #19B5F1;
+    
+      // alerts
+      --success: #00C566;
+      --error: #FF4747;
+      --warning: #FACC15;
+    
+      // greyscale
+      --black-100: #18181B;
+      --black-50: #252532;
+      --grey-1: #B0B0B2;
+      --grey-2: #D1D1D1;
+      --white: #FFFFFF;
+    
+    }
+    

@@ -1,0 +1,111 @@
+.nav {
+    font-size: var(--head-7-size);
+    font-weight: var(--p-weight--active);
+    line-height: var(--head-10-line);
+    margin-top: 1.875em;
+
+    .nav__ul {
+        width: 560px;
+        color: var(--white);
+         li{
+            margin-right: 30px;
+        }
+        li {
+            
+            letter-spacing: 0;
+            cursor: pointer;
+
+            &:hover,
+            &:active {
+                letter-spacing: 5px;
+            }
+
+            &:after,
+            &:before {
+                backface-visibility: hidden;
+                border: 1px solid rgba(#fff, 0);
+                bottom: 0px;
+                content: " ";
+                display: block;
+                margin: 0 auto;
+                position: relative;
+                transition: all 0.5s ease-in-out;
+                width: 0;
+            }
+
+            &:hover:after,
+            &:hover:before {
+                backface-visibility: hidden;
+                border-color: #fff;
+                transition: width 350ms ease-in-out;
+                width: 70%;
+            }
+
+            &:hover:before {
+                bottom: auto;
+                top: 0;
+                width: 70%;
+            }
+
+
+
+
+        }
+
+    }
+
+    .btn-contact {
+        padding: 20px 30px;
+        text-align: center;
+        color: var(--white);
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(to right, var(--linear-1), var(--linear-2)) 1;
+        cursor: pointer;
+        animation: huerotate 2s infinite linear;
+        filter: hue-rotate(360deg);
+        transition: opacity 0.2s ease-in-out, animation 0.3s ease-in-out;
+
+        &:hover {
+            animation: huerotate-hover 3s linear infinite;
+            opacity: 0.7;
+
+        }
+    }
+
+
+
+    //анимация переливания градиента границ div
+    @keyframes huerotate-hover {
+        0% {
+            filter: hue-rotate(0deg);
+        }
+
+        80% {
+            filter: hue-rotate(360deg);
+        }
+
+        100% {
+            filter: hue-rotate(0deg);
+        }
+    }
+
+    @keyframes huerotate {
+        0% {
+            filter: hue-rotate(320deg);
+        }
+
+        80% {
+            filter: hue-rotate(360deg);
+        }
+
+        100% {
+            filter: hue-rotate(320deg);
+        }
+    }
+
+
+
+
+
+}
