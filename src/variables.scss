@@ -44,6 +44,8 @@
 
 
       --h1-weight: 600; 
+      --head-2-weight: 600;
+      --h7-weight: 400;
     
     // body variables
     
@@ -62,6 +64,9 @@
 
       --p-weight: 300;
       --p-weight--active: 500;
+
+      --body-2-weight: 400; 
+      --body-3-weight: 400;
     
     // caption variables
     
@@ -74,6 +79,8 @@
       --caption-1-line: auto;
       --caption-2-line: 20px;
       --caption-3-line: 14px;
+
+      --caption-1-weight: 500;
     
     // button variables
     
@@ -103,7 +110,7 @@
     
       // greyscale
       --black-100: #18181B;
-      --black-50: #252532;
+      --black-80: #252532;
       --grey-1: #B0B0B2;
       --grey-2: #D1D1D1;
       --white: #FFFFFF;
