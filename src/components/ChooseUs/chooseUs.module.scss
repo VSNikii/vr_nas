@@ -1,0 +1,64 @@
+.choose {
+    margin-top: 200px;
+
+    &__texts {
+        width: 700px;
+
+        .choose__neon {
+            background: linear-gradient(45deg, #0CBAF1, #E95CE9 90px);
+            color: transparent;
+            background-clip: text;
+            text-transform: uppercase;
+            font-size: var(--caption-1-size);
+            font-weight: var(--caption-1-weight);
+            line-height: var(--caption-1-line);
+            letter-spacing: 5px;
+        }
+
+        .choose__head2 {
+            font-size: var(--head-2-size);
+            font-weight: var(--head-2-weight);
+            line-height: var(--head-2-line);
+            color: var(--white);
+            letter-spacing: -1px;
+        }
+
+        details {
+            margin-bottom: 60px;
+
+            summary {
+                position: relative;
+                padding: 6px;
+                cursor: pointer;
+                transform: scaleX(-1);
+            }
+
+            summary b {
+                display: inline-block;
+                position: absolute;
+                right: 6px;
+                transform: scaleX(-1);
+            }
+
+            summary {
+
+                color: var(--white);
+                font-size: var(--head-8-size);
+                font-weight: var(--head-8-weight);
+                line-height: var(--head-8-line);
+                padding-bottom: 10px;
+                border-bottom: 1px solid #FFFFFF59;
+
+            }
+
+            p {
+                color: var(--grey-2);
+                font-weight: var(--body-3-weight);
+                font-size: var(--body-3-size);
+                line-height: var(--body-3-line);
+
+            }
+        }
+
+    }
+}

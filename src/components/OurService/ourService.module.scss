@@ -1,0 +1,122 @@
+.service {
+    .service__cards {
+        width: 1300px;
+        flex-wrap: wrap;
+
+        .cards__card {
+            position: relative;
+            h1 {
+                color: var(--white);
+                font-size: var(--head-7-size);
+                font-weight: var(--h7-weight);
+                line-height: var(--head-7-line);
+                margin-top: 60px;
+                margin-bottom: 0;
+            }
+
+            p {
+                color: var(--grey-1);
+                font-size: var(--body-2-size);
+                line-height: var(--body-2-line);
+                font-weight: var(--body-2-weight);
+                transition: opacity 0.3s ease-in-out;
+
+            }
+
+            &:hover {
+                p{
+                    opacity: 0.3;
+                }
+                .btn-more {
+                    opacity: 1;
+
+                }
+            }
+
+            .btn-more {
+                position: absolute;
+                bottom: 10px;
+                right: 65px;
+                left: 65px;
+                opacity: 0;
+                color: var(--white);
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 14px;
+                letter-spacing: 1.5px;
+                text-align: center;
+                padding: 20px 5px; 
+                border: 1px solid transparent;
+                border-image: linear-gradient(to right, #0CBAF1, #E95CE9);
+                border-image-slice: 1;
+                transition: opacity 0.3s ease-in-out;
+                background-color: #FFFFFF0F;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+
+            width: 380px;
+            height: 320px;
+            padding: 40px 30px 20px 30px;
+            border: 1px solid #fff;
+            margin: 20px;
+            background-color: #25253299;
+            border: 1px solid transparent;
+            border-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+            border-image-slice: 1;
+            transition: border-image 0.4s ease-in-out;
+
+            &:hover {
+                border-image: linear-gradient(to right, rgba(12, 186, 241, 1), rgba(233, 92, 233, 1));
+                border-image-slice: 1;
+            }
+
+        }
+    }
+
+    .service__header {
+        width: 1400px;
+        position: relative;
+        img{
+            position: absolute;
+            top: -300px;
+            right: -246px;
+            z-index: 100;
+        }
+        .service__heads {
+            width: 280px;
+            
+            h1 {
+                color: var(--white);
+                font-size: var(--head-2-size);
+                line-height: var(--head-2-line);
+                font-weight: var(--head-2-weight);
+                margin-top: 0;
+            }
+
+            p {
+                font-size: var(--caption-1-size);
+                line-height: var(--caption-1-line);
+                font-weight: var(--caption-1-weight);
+                letter-spacing: 5px;
+                text-transform: uppercase;
+                background-image: linear-gradient(to right, var(--linear-1), var(--linear-2) 130px);
+                color: transparent;
+                /* обрезаем фон по тексту */
+                background-clip: text;
+                -webkit-background-clip: text;
+                /* меняет цвет текста заголовка на прозрачный что бы можно было увидеть градиент*/
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .header__description {
+            width: 625px;
+            font-size: var(--body-1-size);
+            font-weight: var(--p-weight);
+            line-height: var(--body-1-line);
+            color: var(--grey-2);
+        }
+
+    }
+}

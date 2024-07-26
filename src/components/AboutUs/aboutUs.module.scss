@@ -7,7 +7,7 @@
             font-size: var(--caption-1-size);
             line-height: var(--caption-1-line);
             font-weight: var(--caption-1-weight);
-            letter-spacing: 14%;
+            letter-spacing: 5px;
             text-transform: uppercase;
             background-image: linear-gradient(to right, var(--linear-1), var(--linear-2) 50px);
             color: transparent;
@@ -18,6 +18,7 @@
             -webkit-text-fill-color: transparent;
         }
         .texts__head2{
+            margin-top: 0;
             color: var(--white);
             font-size: var(--head-2-size);
             line-height: var(--head-2-line);
