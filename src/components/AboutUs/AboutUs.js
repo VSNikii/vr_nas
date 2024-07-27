@@ -6,6 +6,7 @@ function AboutUs(){
         <div className='aboutUs d-flex'>
             <div className='aboutUs__images'>
                 <img className='images__men' src='/img/men2.png' alt='men'/>
+                <img className='images__video' src='/img/video__about.jpg' alt='video'/>
             </div>
             <div className='aboutUs__texts d-flex flex-column '>
                 <p className='texts__caption1' title='About us'>About us</p>

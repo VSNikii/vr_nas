@@ -6,6 +6,7 @@ import Insert from "./components/Insert/Insert";
 import AboutUs from "./components/AboutUs/AboutUs";
 import OurService from "./components/OurService/OurService";
 import ChooseUs from "./components/ChooseUs/ChooseUs";
+import GetStarted from "./components/GetStarted/GetStarted";
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
       <AboutUs/>
       <OurService/>
       <ChooseUs/>
+      <GetStarted/>
     </div>
   );
 }

@@ -1,6 +1,13 @@
 .choose {
     margin-top: 200px;
-
+    &__media{
+        position: relative;
+        .media__video{
+            position: absolute;
+            right: 120px;
+            bottom: 150px;
+        }
+    }
     &__texts {
         width: 700px;
 
@@ -48,6 +55,7 @@
                 line-height: var(--head-8-line);
                 padding-bottom: 10px;
                 border-bottom: 1px solid #FFFFFF59;
+                
 
             }
 

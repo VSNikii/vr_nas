@@ -19,8 +19,9 @@ function ChooseUs() {
                     <p>We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the highest quality work. Our team consists of experienced VR developers, designers, and technicians who have a proven track record of creating immersive and engaging VR experiences.</p>
                 </details>
             </div>
-            <div>
-                <img src='/img/men3.svg' alt='men'/>
+            <div className='choose__media'>
+                <img className='media__men' src='/img/men3.svg' alt='men'/>
+                <img className='media__video' src='/img/video_choose.jpg' alt='video'/>
             </div>
         </div>
     );
