@@ -1,10 +1,11 @@
 import './chooseUs.module.scss';
+import NeonText from '../NeonText/NeonText';
 
 function ChooseUs() {
     return (
         <div className='choose d-flex justify-around'>
             <div className='choose__texts'>
-                <p className='choose__neon'>Why choose up</p>
+                <NeonText text='Why choose up'/>
                 <h1 className='choose__head2'>Why Choose Us for Your VR Needs</h1>
                 <details>
                     <summary><b>Passionate and Experienced Team</b></summary>

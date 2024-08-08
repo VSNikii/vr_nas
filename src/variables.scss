@@ -43,10 +43,12 @@
       --head-12-line: auto;
 
 
-      --h1-weight: 600; 
+      --head-1-weight: 600; 
       --head-2-weight: 600;
-      --h7-weight: 400;
+      --head-5-weight: 600;
+      --head-7-weight: 400;
       --head-8-weight: 500;
+
     
     // body variables
     
@@ -63,8 +65,8 @@
       --body-4-line: 20px;
 
 
-      --p-weight: 300;
-      --p-weight--active: 500;
+      --li-weight: 300;
+      --li-weight--active: 500;
 
       --body-2-weight: 400; 
       --body-3-weight: 400;
@@ -82,6 +84,7 @@
       --caption-3-line: 14px;
 
       --caption-1-weight: 500;
+      --caption-2-weight: 500;
     
     // button variables
     
@@ -115,6 +118,8 @@
       --grey-1: #B0B0B2;
       --grey-2: #D1D1D1;
       --white: #FFFFFF;
+
+      --linear-width: 50px;
     
     }
     

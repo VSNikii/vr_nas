@@ -11,20 +11,6 @@
     &__texts {
         width: 562px;
         margin-top: 30px;
-        .texts__caption1 {
-            font-size: var(--caption-1-size);
-            line-height: var(--caption-1-line);
-            font-weight: var(--caption-1-weight);
-            letter-spacing: 5px;
-            text-transform: uppercase;
-            background-image: linear-gradient(to right, var(--linear-1), var(--linear-2) 50px);
-            color: transparent;
-            /* обрезаем фон по тексту */
-            background-clip: text;
-            -webkit-background-clip: text;
-            /* меняет цвет текста заголовка на прозрачный что бы можно было увидеть градиент*/
-            -webkit-text-fill-color: transparent;
-        }
         .texts__head2{
             margin-top: 0;
             color: var(--white);
@@ -47,42 +33,4 @@
             list-style-image: url('./../../../public/img/check-box.png');
             padding-left: 25px;
         }
-        .texts__button{
-            margin-top: 30px;
-        max-width: 280px;
-        height: 76px;
-        padding: 1.5em 2.3em;
-        background: rgb(0, 255, 140);
-        box-shadow: 0 -150px 70px -120px rgb(0, 255, 208) inset,
-            0 -220px 70px -120px rgb(225, 0, 255) inset,
-            0 -220px 100px -120px rgb(200, 0, 255) inset;
-        background-position: 0 0;
-        border: 0;
-        text-transform: uppercase;
-        font-size: var(--button-1-size);
-        font-weight: var(--button-1-weight);
-        line-height: var(--button-1-line);
-        color: var(--white);
-        letter-spacing: 1.5px;
-        text-align: center;
-        animation: background 4s infinite alternate;
-        cursor: pointer;
-        transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        &:hover{
-            opacity: 0.7;
-            box-shadow: 120px -150px 70px -120px rgb(28, 189, 160) inset,
-            120px -120px 70px -120px rgb(99, 208, 150) inset,
-            120px -180px 180px -180px rgb(255, 0, 136) inset;
-            
-        }
-        }
-    }
-}
-@keyframes background {
-    50% {
-      background: darkviolet;
-      box-shadow: 0 -140px 70px -120px mediumorchid inset,
-                  0 -210px 70px -120px teal inset,
-                  0 -280px 70px -120px plum inset;
-    }
-  }
+    }}

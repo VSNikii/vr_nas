@@ -6,6 +6,11 @@
 @import './components/OurService/ourService.module.scss';
 @import './components/ChooseUs/chooseUs.module.scss';
 @import './components/GetStarted/getStarted.module.scss';
+@import './components/NeonButton/neonButton.module.scss';
+@import './components/NeonText/neonText.module.scss';
+@import './components/OurPricing/ourPricing.module.scss';
+@import './components/OurPartners/ourPartners.module.scss';
+@import './components/OurArticles/ourArticles.module.scss';
 
 body {
   margin: 0;
@@ -15,6 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #18181B;
+  overflow-x: hidden;
 }
 
 

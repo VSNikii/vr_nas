@@ -1,0 +1,12 @@
+.text-neon {
+    font-size: var(--caption-1-size);
+    line-height: var(--caption-1-line);
+    font-weight: var(--caption-1-weight);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, var(--linear-1), var(--linear-2) 90px) ;
+    color: transparent;
+    /* обрезаем фон по тексту */
+    background-clip: text;
+
+}

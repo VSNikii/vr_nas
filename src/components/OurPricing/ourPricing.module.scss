@@ -1,0 +1,108 @@
+.pricing {
+
+
+
+    &__text-block {
+        .text-block__heads {
+            margin-left: 50px;
+
+            .heads__head2 {
+                margin-top: 0;
+                font-size: var(--head-2-size);
+                font-weight: var(--head-2-weight);
+                line-height: var(--head-2-line);
+                color: var(--white);
+                letter-spacing: -0.5px;
+            }
+
+            .heads__body1 {
+                font-size: var(--body-2-size);
+                font-weight: var(--body-2-weight);
+                line-height: var(--body-2-line);
+                color: var(--grey-2);
+                max-width: 625px;
+            }
+        }
+
+        .text-block__description {
+            margin-top: 60px;
+            max-height: 900px;
+            background-color: #252532CF;
+            width: 1800px;
+            margin-left: 50px;
+            padding: 100px;
+            border: 1px solid transparent;
+            border-image: linear-gradient(to right, #FFFFFF4D, #FFFFFF00);
+            border-image-slice: 3;
+            position: relative;
+
+            .pricing__price {
+                position: absolute;
+                bottom: -50px;
+                right: 150px;
+                width: 400px;
+                border: 1px solid transparent;
+                border-image: linear-gradient(to right, var(--linear-1), var(--linear-2));
+                border-image-slice: 3;
+                background-color: var(--black-80);
+
+                .price__caption2 {
+                    font-size: var(--caption-2);
+                    font-weight: var(--caption-2-weight);
+                    margin-bottom: 0;
+                    color: var(--grey-2);
+                }
+
+                button {
+                    margin-top: 0;
+                    padding: 20px 30px;
+                }
+
+                .price__price {
+                    color: var(--white);
+                    font-size: 60px;
+                    font-weight: 500;
+                    line-height: 66px;
+                    margin: 0 auto 30px auto;
+                }
+
+                .price__body4 {
+                    margin-top: 20px;
+                    color: var(--grey-1);
+                }
+            }
+
+            .description__backlight {
+                position: absolute;
+                top: 0;
+                right: -100px;
+            }
+
+            .description__advantages {
+                width: 745px;
+                border-right: 1px solid rgba(255, 255, 255, 0.1);
+
+                li {
+                    list-style-image: url("./../../../public/img/li-pricing.svg");
+                }
+
+                .advantages__body3 {
+
+                    color: var(--grey-1);
+                    font-size: var(--body-3-size);
+                    font-weight: var(--body-3-weight);
+                    line-height: var(--body-3-line);
+                    max-width: 582px;
+                }
+
+                .advantages__head9 {
+                    color: var(--white);
+                    font-size: var(--head-9-size);
+                    font-weight: var(--head-9-weight);
+                    line-height: var(--head-9-line);
+                }
+            }
+        }
+    }
+
+}

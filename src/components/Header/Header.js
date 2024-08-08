@@ -1,4 +1,5 @@
 import './header.module.scss';
+import NeonButton from '../NeonButton/NeonButton';
 
 function Header(){
     return(
@@ -8,7 +9,7 @@ function Header(){
             <div className='d-flex flex-column'>
                 <h1 className='header__head1'>Immerse Yourself in Virtual Reality</h1>
                 <p className='header__body1'>Experience Unforgettable Events in VR. Bring your events to life like never before with our VR services</p>
-                <button className='header__button1 button-neon'>discover more</button>
+                <NeonButton text={'discover more'}/>
                 <div className='header__clients d-flex align-center'>
                     <img src='/img/clients.svg' alt='happy clients'/> 
                     <p className='happyClients'><b><img className='underline-purple'src='/img/underline.svg'/>32k+</b> Happy Client</p>
