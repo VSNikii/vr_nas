@@ -10,6 +10,7 @@ import GetStarted from "./components/GetStarted/GetStarted";
 import OurPricing from "./components/OurPricing/OurPricing";
 import OurPartners from "./components/OurPartners/OurPartners";
 import OurArticles from "./components/OurArticles/OurArticles";
+import Email from "./components/Email/Email";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       <OurPricing/>
       <OurPartners/>
       <OurArticles/>
+      <Email/>
     </div>
   );
 }
